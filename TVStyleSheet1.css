@@ -10,10 +10,15 @@
     display:flex;           /*made the 2 columns stop stacking*/
 }
 
-.col-sm-9{
-    image-rendering:optimizeQuality;
+
+
+
+.navbar-brand{
+    background-color:forestgreen;
+    color:white;
 }
 
-.nav navbar-nav{
-    text-align:center;
+.nav navbar-nav navbar-right{
+    background-color:cornflowerblue;
+    color:white;
 }
