@@ -1,5 +1,27 @@
 ﻿body {
+	background: #d2d2d2;
 }
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+	max-width:1400px;
+}
+
+header .container {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+    background: #fff;
+}
+
+.navbar-toggle .icon-bar { background-color:#000;
+}
+
+.logo {background-color:#4fb1a2; color:#FFF; line-height:20px; height:60px; font-size:18px; padding-top:8px;}
+.all-villas { background-color:#82bfd8; color:#FFF; height:60px;}
+
 
 
 /*.jumbotron h1{          /*This changed jumobotron font but didn't stop them from stacking*/
@@ -22,3 +44,57 @@
     background-color:cornflowerblue;
     color:white;
 }
+
+
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 0px;
+	height:600px;
+}
+
+.jumboleft {background-image:url(images/rent-villa-in-tuscany_WOT.jpg); background-repeat:no-repeat; background-size:cover;}
+.jumboright { background-image:url(images/_map_overlay.png); background-repeat:no-repeat; background-size:cover;}
+
+.jumbotext {                                            /*Text inside of jumbotrons*/
+background: rgba(67,70,71,.4);
+    width: 600px;
+    min-height: 40px;
+    color: #fff;
+    padding: 30px 45px;
+	margin:0 auto;
+	margin-top:300px;
+}
+
+.jumbotext h1 { font-size: 26px; line-height:30px; font-weight:bold;} 
+.jumbotext h2 { font-size: 16px; line-height:18px;} 
+
+
+/*media query to set the width based on screen size*/ 
+
+
+@media (max-width: 1024px) {             
+	
+.container .jumbotron, .container-fluid .jumbotron {
+	height:400px;
+}
+
+.jumbotext {
+    width: 400px;
+    padding: 25px 35px;
+	margin-top:200px;
+}
+
+.jumbotext h1 { font-size: 26px; line-height:30px; font-weight:bold;} 
+.jumbotext h2 { font-size: 16px; line-height:18px;} 
+
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 320px) {
+
+}
+

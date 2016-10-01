@@ -1,148 +1,123 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tuscany Villa</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <link href="TVStyleSheet1.css" rel="stylesheet" />
-
-    <style>
-        /* Remove the navbar's default margin-bottom and rounded borders */
-        .navbar {
-            margin-bottom: 0;
-            border-radius: 0;
-        }
-
-        /* Add a gray background color and some padding to the footer */
-        footer {
-            background-color: #f2f2f2;
-            padding: 25px;
-        }
-    </style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="TVStyleSheet1.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
 </head>
 <body>
+<header>
+  <div class="container">
+<nav class="navbar">
 
-    <nav class="navbar navbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">WINDOWS ON TUSCANY</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"></a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">AREAS</a></li>
-                    <li><a href="#">CONTACTS</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"> ALL VILLAS</a></li>
-                </ul>
-            </div>
+  	<div class="col-xs-2 logo">WINDOWS<br>
+ON TUSCANY
+    </div>
+    
+  	<div class="col-xs-8">
+    	<div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
         </div>
-    </nav>
-
-    <div class="jumbotron">
-        <div class="container text-center">
-            <div class="row">                                           <!--divided jumbotron into 2 rows-->
-                <div class="col-sm-9">
-                    <h1>FEEL LIKE HOME AWAY FROM HOME
-                        <img src="images/3b-348x348 pool-night.jpg" width="700" height="400" /></h1>
-                    <p>FIND YOUR EXCLUSIVE TUSCANY VILLA FOR THE HOLIDAYS</p>
-                </div>
-                <div class="col-sm-3">
-                    <h1>FIND YOUR TUSCANY VILLA
-                        <img src="images/Versilia-map.jpg" />
-                    </h1>
-                    <p>EXPLORE THE MAP</p>
-                </div>
-
-            </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">AREAS</a></li>
+            <li><a href="#">CONTACTS</a></li>
+          </ul>      
         </div>
     </div>
+    
+  	<div class="col-xs-2 all-villas">ALL VILLAS
+    </div>
+    </nav>
+    
+  </div>
 
-    <div class="container-fluid bg-3 text-center">
-        <h3>Some of my Work</h3><br>
-        <div class="row">
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
 
-                <img src="images/patio-day-2 231-348x348.jpg" />  class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
+</header>
 
-                <img src="images/patio-day 2812-2-348x348.jpg" />  class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
+<div class="container text-center">
+  <div class="col-sm-9 jumbotron jumboleft">
+  	<div class="jumbotext">
+    	<h1>FEEL LIKE HOME AWAY FROM HOME</h1>
+		<h2>FIND YOUR EXCLUSIVE TUSCANY VILLA FOR HOLIDAY</h2>    
+    </div>
+  </div>
+  
+  <div class="col-sm-3 jumbotron jumboright">
+  </div>
+    
+  
+</div>
+  
+<div class="container-fluid bg-3 text-center">
+  <h3>Some of my Work</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
 
-                <img src="images/tea-room 2750-2-348x348.jpg" /> class="img-responsive" style="width:100%" alt="Image">
-            </div>
-        </div>
-    </div><br>
+<div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
 
-    <div class="container-fluid bg-3 text-center">
-        <div class="row">
-            <div class="col-sm-3">
-                <p>Some text..</p>
-
-                <img src="images/patio-day-2 231-348x348.jpg" /> class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-
-                <img src="images/tea-room 2750-2-348x348.jpg" /> class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-        </div>
-    </div><br><br>
-
-    <div class="container-fluid bg-3 text-center">
-        <!--Added a row-->
-        <div class="row">
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-
-                <img src="images/3b-348x348 pool-night.jpg" /> class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                 class="img-responsive" style="width:100%" alt="Image">
-            </div>
-        </div>
-    </div><br><br><br>                                       <!--Go back to figure out what <br> and why and extra one is needed for each row-->
-
-    <footer class="container-fluid text-center">
-        <p>Footer Text</p>
-    </footer>
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
 
 </body>
 </html>
