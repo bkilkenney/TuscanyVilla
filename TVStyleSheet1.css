@@ -19,7 +19,7 @@ header .container {
 .navbar-toggle .icon-bar { background-color:#000;
 }
 
-.logo {background-color:#4fb1a2; color:#FFF; line-height:20px; height:60px; font-size:18px; padding-top:8px;}
+.logo {background-color:#4fb1a2; color:#FFF; line-height:20px; height:60px; font-size:18px; padding-top:8px; font-family: 'Droid Serif', serif;}
 .all-villas { background-color:#82bfd8; color:#FFF; height:60px;}
 
 
@@ -46,6 +46,9 @@ header .container {
 }
 
 
+.jumbotron {
+    margin-bottom: 0px;
+}
 
 .container .jumbotron, .container-fluid .jumbotron {
     padding-right: 0px;
@@ -57,8 +60,8 @@ header .container {
 .jumboleft {background-image:url(images/rent-villa-in-tuscany_WOT.jpg); background-repeat:no-repeat; background-size:cover;}
 .jumboright { background-image:url(images/_map_overlay.png); background-repeat:no-repeat; background-size:cover;}
 
-.jumbotext {                                            /*Text inside of jumbotrons*/
-background: rgba(67,70,71,.4);
+.jumbotext {
+background: rgba(67,70,71,.5);
     width: 600px;
     min-height: 40px;
     color: #fff;
@@ -70,11 +73,30 @@ background: rgba(67,70,71,.4);
 .jumbotext h1 { font-size: 26px; line-height:30px; font-weight:bold;} 
 .jumbotext h2 { font-size: 16px; line-height:18px;} 
 
+.bluebutton {float:right; width:100px; background-color:#69cfbf; color:#FFF; border:none; }
+
+.grid { background-color: #FFF}
+.gridbox { height:300px; border:1px solid #FFF; text-align:center;}
+.gridbox-left { height:300px; border:1px solid #FFF; text-align:left;}
+.gridbox h3 {text-align:center;}
+h3.blue {color:#4fb1a2; text-align:left;}
+
+.boxtext {
+background: rgba(67,70,71,.7);
+    min-height: 40px;
+    color: #fff;
+    padding: 15px 15px;
+	margin:0 auto;
+	margin-top:100px;
+	text-align:center;
+}
+
+
 
 /*media query to set the width based on screen size*/ 
 
 
-@media (max-width: 1024px) {             
+@media (max-width: 1024px) {
 	
 .container .jumbotron, .container-fluid .jumbotron {
 	height:400px;
