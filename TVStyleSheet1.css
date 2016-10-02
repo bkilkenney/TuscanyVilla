@@ -1,5 +1,5 @@
 ﻿body {
-	background: #d2d2d2;
+	background: #d2d2d2; font-family: 'Open Sans', sans-serif;          /*Google Font*/
 }
 
 .container {
@@ -8,42 +8,28 @@
 	max-width:1400px;
 }
 
+.icon-bar{
+    color: black;
+    font-size: 18pt;
+}
+
 header .container {
-    height: 60px;
-    line-height: 60px;
+    height: 62px;
+    line-height: 62px;
     border-bottom: 1px solid #cccccc;
     text-align: center;
     background: #fff;
 }
 
+.nopad { padding-left:0px; padding-right:0px}
+
 .navbar-toggle .icon-bar { background-color:#000;
 }
 
-.logo {background-color:#4fb1a2; color:#FFF; line-height:20px; height:60px; font-size:18px; padding-top:8px; font-family: 'Droid Serif', serif;}
 .all-villas { background-color:#82bfd8; color:#FFF; height:60px;}
 
 
-
-/*.jumbotron h1{          /*This changed jumobotron font but didn't stop them from stacking*/
-    /*font-size:12pt;
-    }*/
-
-.container text-center{
-    display:flex;           /*made the 2 columns stop stacking*/
-}
-
-
-
-
-.navbar-brand{
-    background-color:forestgreen;
-    color:white;
-}
-
-.nav navbar-nav navbar-right{
-    background-color:cornflowerblue;
-    color:white;
-}
+.navbar-nav {float:none; text-align:center; margin:0 auto; width:280px;}
 
 
 .jumbotron {
@@ -55,6 +41,12 @@ header .container {
     padding-left: 0px;
     border-radius: 0px;
 	height:600px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size:16px;
 }
 
 .jumboleft {background-image:url(images/rent-villa-in-tuscany_WOT.jpg); background-repeat:no-repeat; background-size:cover;}
@@ -78,6 +70,23 @@ background: rgba(67,70,71,.5);
 .grid { background-color: #FFF}
 .gridbox { height:300px; border:1px solid #FFF; text-align:center;}
 .gridbox-left { height:300px; border:1px solid #FFF; text-align:left;}
+.gridbox-blue { height:300px; border:1px solid #FFF; text-align:center; background-color:#69cfbf; color:#FFF;}
+
+.boxbutton {
+    display: block;
+    color: #69cfbf;
+    border: 1px solid #69cfbf;
+    padding: 10px 10px;
+    font-size: 12px;
+	background-color:transparent;
+	margin-top:10px;
+}
+
+.boxbutton:hover {
+	background-color:#69cfbf;
+	color:#FFF;
+}
+
 .gridbox h3 {text-align:center;}
 h3.blue {color:#4fb1a2; text-align:left;}
 
@@ -93,30 +102,45 @@ background: rgba(67,70,71,.7);
 
 
 
-/*media query to set the width based on screen size*/ 
+/*media query to set the width based on screen size*/
+@media (min-width: 1400px) {
+
+    .container {
+        width: 1390px;
+    }
+
+    @media (max-width: 1024px) {
+
+        .container .jumbotron .container-fluid .jumbotron {
+            height: 400px;
+        }
+
+        .jumbotext {
+            width: 400px;
+            padding: 25px 35px;
+            margin-top: 200px;
+        }
+
+            .jumbotext h1 {
+                font-size: 26px;
+                line-height: 30px;
+                font-weight: bold;
+            }
+
+            .jumbotext h2 {
+                font-size: 16px;
+                line-height: 18px;
+            }
+    }
+
+    @media (max-width: 768px) {
+        .jumbotext {
+            margin-top: 100px;
+        }
+    }
 
 
-@media (max-width: 1024px) {
-	
-.container .jumbotron, .container-fluid .jumbotron {
-	height:400px;
-}
 
-.jumbotext {
-    width: 400px;
-    padding: 25px 35px;
-	margin-top:200px;
-}
 
-.jumbotext h1 { font-size: 26px; line-height:30px; font-weight:bold;} 
-.jumbotext h2 { font-size: 16px; line-height:18px;} 
 
-}
-
-@media (max-width: 640px) {
-}
-
-@media (max-width: 320px) {
-
-}
 
