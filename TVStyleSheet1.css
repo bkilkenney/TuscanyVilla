@@ -248,3 +248,13 @@ h3.blue {
     text-emphasis-color:black;
 }
 
+h4{  /*"Seen On", may remove this if I can't get it looking better*/
+    text-align:center;
+    font-weight:bold;
+    color:black;
+    font-size:20px;
+}
+
+.lastTile{
+    padding:1px;
+}
