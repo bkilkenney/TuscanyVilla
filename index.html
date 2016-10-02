@@ -46,8 +46,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-2 all-villas">
-                    <!--right side of navbar-->
+                <div class="col-xs-2 all-villas">        <!--right side of navbar-->            
                     ALL VILLAS
                 </div>
             </nav>
@@ -77,14 +76,15 @@
             </div>
     </div>
 
-    <!--first row below-->
+ <!--first row below-->
 
     <div class="container grid">
-        <div class="col-sm-3 gridbox-left">
+        <div class="col-sm-3 gridbox-left">  <!--all of these tiles will be sm-3-->
             <h3 class="blue">SOME ACCOMMODATION IDEAS FOR A PERFECT STAY</h3>
             YOUR IDEAS, OUR JOB!
+            <a href="#" class="boxbutton">LEARN MORE</a>  <!--Learn more button on the tiles which aren't images-->
         </div>
-        <!--pics are background images so text can be layered over them-->
+ <!--pics are background images so text can be layered over them-->
         <div class="col-sm-3 gridbox" style="background-image: url('images/villaWedding.jpg'); background-repeat: no-repeat; background-size: cover;">
             <div class="boxtext">
                 <h2>
@@ -116,6 +116,7 @@
         <div class="col-sm-3 gridbox">
             <h3>WHY BOOK A VILLA</h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis augue eget iaculis efficitur. Praesent ipsum sapien, elementum in justo nec, bibendum euismod massa.
+            <a href="#" class="boxbutton">LEARN MORE</a>
         </div>
         <div class="col-sm-3 gridbox" style="background-image:; background-image: url('images/overHead_Beach.jpg'); background-repeat: no-repeat; background-size: cover;">
             <div class="boxtext2">
@@ -125,7 +126,6 @@
         <div class="col-sm-3 gridbox">
             <h3>WHY US</h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis augue eget iaculis efficitur. Praesent ipsum sapien, elementum in justo nec, bibendum euismod massa.
-
             <a href="#" class="boxbutton">LEARN MORE</a>
         </div>
 
@@ -134,13 +134,19 @@
         <div class="col-sm-3 gridbox">
             <h3>WHY BOOK A VILLA</h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis augue eget iaculis efficitur. Praesent ipsum sapien, elementum in justo nec, bibendum euismod massa.
+            <a href="#" class="boxbutton">LEARN MORE</a>
         </div>
         <div class="col-sm-3 gridbox" style="background-image:url(images/patio-day%202812-2-348x348.jpg); background-repeat:no-repeat; background-size:cover;">
         </div>
 
-        <div class="col-sm-3 gridbox-blue">
-            <h3>WHY BOOK A VILLA</h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis augue eget iaculis efficitur. Praesent ipsum sapien, elementum in justo nec, bibendum euismod massa.
+        <div class="col-sm-3 gridbox-blue">  <!--Made this box blue-->
+        <div class="blue_box">         
+            
+            <h3>OUR CLIENTS<br />TRUST US<br />20<br />GUEST REVIEWS<br>4.5/5.0</h3>
+            <div class="blue_box_button">                                       <!--This button not displayed with black font, may come back to it-->
+            <a href="#" class="boxbutton" style="color:black; border-color:black; font-size:22px">READ ALL REVIEWS</a>
+                </div>
+            </div>
         </div>
 
         <div class="col-sm-3 gridbox" style="background-image:url(images/patio-day%202812-2-348x348.jpg); background-repeat:no-repeat; background-size:cover;">
@@ -150,8 +156,10 @@
     <!--end of rows-->
 
     <footer class="container text-center">
-        <img src="http://www.windowsontuscany.com/wp-content/themes/tuscany/img/logo_footer.png" />
-        <p>Footer Text</p>
+        <div class="footerText">
+            <img src="http://www.windowsontuscany.com/wp-content/themes/tuscany/img/logo_footer.png" style="float:left" image="30px" />
+            <p>WINDOWS ON ITALY S.R.L. Via dei Serragli <br />ITALIA - P.IVA. 05797190484</p>
+        </div>
     </footer>
 
 </body>

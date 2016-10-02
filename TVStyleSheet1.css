@@ -1,11 +1,11 @@
 ﻿body {
     background: #d2d2d2;
     font-family: 'Open Sans', sans-serif; /*Google Font*/
+    font-size:18px;  /*This size seems to fill out the tiles nicely*/
 }
 
-/*sit's .container class has a max width of 1398px, but that didn't display large enough, experimented with the width and
-                                  eventually set it to 1400px*/
-.container {
+
+.container {                /*experimented a lot with max width before things start stacking*/
     padding-right: 0px;
     padding-left: 0px;
     max-width: 1400px;
@@ -134,12 +134,13 @@ a {
     text-align: left;
 }
 
-.gridbox-blue {
+.gridbox-blue {  /*for the second to last tile on the bottom row*/
     height: 300px;
     border: 1px solid #FFF;
     text-align: center;
     background-color: #69cfbf;
     color: #FFF;
+    
 }
 
 .boxbutton {
@@ -150,6 +151,7 @@ a {
     font-size: 12px;
     background-color: transparent;
     margin-top: 10px;
+    text-align:center;
 }
 
     .boxbutton:hover {
@@ -159,6 +161,7 @@ a {
 
 .gridbox h3 {
     text-align: center;
+    font-weight:bold;
 }
 
 h3.blue {
@@ -224,3 +227,24 @@ h3.blue {
             margin-top: 100px;
         }
     }
+
+.footerText{
+    line-height:20px;
+    font-size:20px;
+    text-align:left;
+    padding: 50px;
+}
+
+.blue_box{
+   font-size: 26px;
+   padding: 14PX;
+   text-align:center;
+   border:thin;
+   border-color:black;
+   
+}
+
+.blue_box_button{  /*black so it will display with the blue background*/
+    text-emphasis-color:black;
+}
+
